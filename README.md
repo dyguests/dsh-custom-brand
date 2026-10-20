@@ -2,7 +2,7 @@
 
 把 DeepSeek Harness 侧边栏左上角的品牌位（默认是鲸鱼图标 + `deepseek HARNESS`）换成**你自己的图标和文字**，改一个 JSON 文件、刷新页面即可生效。
 
-![侧边栏品牌行](https://raw.githubusercontent.com/dyguests/dsh-custom-brand/main/docs/brand-row.png)
+![安装前 / 安装后](https://raw.githubusercontent.com/dyguests/dsh-custom-brand/main/docs/before-after.png)
 
 > 社区插件，与 DeepSeek 官方无关。分类：**UI & Experience**。
 
