@@ -1,5 +1,11 @@
 # dsh-custom-brand · 大肥鱼品牌图标
 
+[![npm version](https://img.shields.io/npm/v/dsh-custom-brand?color=blue)](https://www.npmjs.com/package/dsh-custom-brand)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-custom-brand)](https://www.npmjs.com/package/dsh-custom-brand)
+[![license](https://img.shields.io/npm/l/dsh-custom-brand)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dyguests/dsh-custom-brand)](https://github.com/dyguests/dsh-custom-brand)
+[![Listed on dsh-plugin.org](https://dsh-plugin.org/badges/listed.svg)](https://dsh-plugin.org/plugins/dyguests/dsh-custom-brand)
+
 把 DeepSeek Harness 侧边栏左上角的品牌位（默认是鲸鱼图标 + `deepseek HARNESS`）换成**你自己的图标和文字**，改一个 JSON 文件、刷新页面即可生效。
 
 ![安装前 / 安装后](https://raw.githubusercontent.com/dyguests/dsh-custom-brand/main/docs/before-after.png)
