@@ -1,0 +1,14 @@
+README.md
+  h_3553f4e32d4a9f 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9db23c53b37b3fd7b0c375eb31bfe34fa403a448",
+  "prompts": {},
+  "humans": {
+    "h_3553f4e32d4a9f": {
+      "author": "fanhl <dyguests@qq.com>"
+    }
+  }
+}
