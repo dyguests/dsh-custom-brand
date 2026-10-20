@@ -1,0 +1,23 @@
+assets/head-mark.svg
+  s_a911441aabbc5c::t_d17c0de3c5b424 1
+locale/en.json
+  s_a911441aabbc5c::t_ac8e2f9776ce45 1-6
+locale/zh.json
+  s_a911441aabbc5c::t_49ce88d7534912 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3ed7cd3f2f9d58fe760a3b1b9771660b87c3720c",
+  "prompts": {},
+  "sessions": {
+    "s_a911441aabbc5c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "4a897d0d-59fb-4790-90f3-cf08139febea",
+        "model": "grok-4.7"
+      },
+      "human_author": "fanhl <dyguests@qq.com>"
+    }
+  }
+}
