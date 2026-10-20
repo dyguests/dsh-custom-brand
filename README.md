@@ -84,7 +84,7 @@ curl -s -X PUT -H 'content-type: application/json' \
 
 - **停用**：「插件」页关掉 `大肥鱼品牌图标` 的开关，官方品牌立刻回来
 - **卸载**：`dsh plugin --profile web remove dsh-custom-brand`
-- **换素材**：把 `mark` 指向你的图片即可；`assets/` 里还放了几版备选剪影（`head-oval.png`、`head-eyes.png`、`head-silhouette.png`、`head-bust.png`）
+- **换素材**：把 `mark` 指向你的图片即可；`assets/` 里还放了几版备选剪影（`head-oval.png` 默认、`head-eyes.png`、`head-silhouette.png`、`head-bust.png`、`fat-fish-glyph.png`）
 
 ## 兼容性
 
