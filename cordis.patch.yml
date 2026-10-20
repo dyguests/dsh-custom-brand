@@ -1,0 +1,11 @@
+# dsh-custom-brand bundle patch
+#
+# Mounts the sidebar brand override. Installed as a bundle, this row is all the
+# wiring needed; installed as a plain package, put the same insert row in the
+# profile's own cordis.patch.yml instead.
+- insert:
+    - id: brand-slot
+      name: dsh-custom-brand
+      config:
+        name: 大肥鱼
+        badge: DSH

@@ -1,0 +1,60 @@
+{
+  "name": "dsh-custom-brand",
+  "version": "0.1.0",
+  "description": "把 DeepSeek Harness 侧边栏左上角的品牌图标和文字换成你自己的。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "locale",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "brand",
+    "branding",
+    "sidebar",
+    "logo",
+    "icon",
+    "custom"
+  ],
+  "license": "MIT",
+  "author": "dyguests",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyguests/dsh-custom-brand.git"
+  },
+  "homepage": "https://github.com/dyguests/dsh-custom-brand#readme",
+  "bugs": {
+    "url": "https://github.com/dyguests/dsh-custom-brand/issues"
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.0"
+  },
+  "icon": "./assets/head-oval.png",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}
