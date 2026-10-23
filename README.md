@@ -6,6 +6,13 @@
 [![GitHub stars](https://img.shields.io/github/stars/dyguests/dsh-custom-brand)](https://github.com/dyguests/dsh-custom-brand)
 [![Listed on dsh-plugin.org](https://dsh-plugin.org/badges/listed.svg)](https://dsh-plugin.org/plugins/dyguests/dsh-custom-brand)
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dyguests/dsh-custom-brand/main/docs/logo-dark.png">
+    <img src="https://raw.githubusercontent.com/dyguests/dsh-custom-brand/main/docs/logo-light.png" width="200" alt="dsh-custom-brand logo">
+  </picture>
+</p>
+
 把 DeepSeek Harness 侧边栏左上角的品牌位（默认是鲸鱼图标 + `deepseek HARNESS`）换成**你自己的图标和文字**，改一个 JSON 文件、刷新页面即可生效。
 
 ![安装前 / 安装后](https://raw.githubusercontent.com/dyguests/dsh-custom-brand/main/docs/before-after.png)
