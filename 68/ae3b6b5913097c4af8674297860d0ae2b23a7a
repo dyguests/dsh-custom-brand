@@ -1,0 +1,18 @@
+README.md
+  h_3553f4e32d4a9f 17-18
+lib/client.js
+  h_3553f4e32d4a9f 34-38,40-41,47-49,51-52,54-73,76-118,168-171,180-182
+package.json
+  h_3553f4e32d4a9f 3-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "68ae3b6b5913097c4af8674297860d0ae2b23a7a",
+  "prompts": {},
+  "humans": {
+    "h_3553f4e32d4a9f": {
+      "author": "fanhl <dyguests@qq.com>"
+    }
+  }
+}
