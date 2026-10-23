@@ -1,0 +1,19 @@
+README.md
+  s_e1285e880b2eb1::t_734c0ead300230 94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7e4ad8faa129fe9448ac7da8cc8d61ccfa1c6b93",
+  "prompts": {},
+  "sessions": {
+    "s_e1285e880b2eb1": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "076b91b5-1f6b-4ada-a118-c35eed5313f5",
+        "model": "grok-4.7"
+      },
+      "human_author": "fanhl <dyguests@qq.com>"
+    }
+  }
+}
