@@ -1,7 +1,7 @@
 {
   "name": "dsh-custom-brand",
-  "version": "0.1.0",
-  "description": "把 DeepSeek Harness 侧边栏左上角的品牌图标和文字换成你自己的。",
+  "version": "0.1.1",
+  "description": "把 DeepSeek Harness 侧边栏左上角的品牌图标、文字，以及空白会话欢迎屏的鲸鱼换成你自己的。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

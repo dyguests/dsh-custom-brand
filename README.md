@@ -14,7 +14,8 @@
 
 ## 特性
 
-- **两个位置都覆盖**：`sidebar.brand.mark` 和 `sidebar.brand.name`，折叠成 56px 窄栏时同一个图标位继续生效
+- **三个位置都覆盖**：`sidebar.brand.mark`、`sidebar.brand.name`，以及空白会话欢迎屏的 `conversation.hero.brand.mark`——折叠成 56px 窄栏时同一个图标位继续生效，欢迎屏的鲸鱼也会一起换掉
+- **欢迎屏图标共用一份配置**：同一个 `mark` / `markMode` / `markColor`，边长取宿主给的 34px（和标题同高）；`markSize` 只作用于侧边栏
 - **不用停用官方包**：以更低 `priority` 影子覆盖 single slot，卸载即恢复原样
 - **两种图标模式**
   - `glyph`：只取图片形状当剪影，用 `currentColor` 上色 —— 浅色主题近黑、深色主题自动转浅，背景透明（和原版鲸鱼一致）
